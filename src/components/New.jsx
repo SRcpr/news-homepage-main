@@ -4,10 +4,10 @@ const New = () => {
   return (
     <section className="new">
       <h2 className="new-heading">New</h2>
-      {news.map((news) => (
-        <aside className="subheading" key={news.newsTitle}>
-          <h3 className="subheading-title">{news.newsTitle}</h3>
-          <p className="subheading-desc">{news.newsDesc}</p>
+      {news.map((newsItem) => (
+        <aside className="subheading" key={newsItem.newsTitle}>
+          <h3 className="subheading-title">{newsItem.newsTitle}</h3>
+          <p className="subheading-desc">{newsItem.newsDesc}</p>
         </aside>
       ))}
     </section>
