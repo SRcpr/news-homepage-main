@@ -1,0 +1,83 @@
+.hero-image-section {
+  margin-top: 2em;
+}
+.hero-image {
+  width: 100%;
+}
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.hero-description {
+  margin-top: 2em;
+}
+.hero-description-heading > h1 {
+  font-weight: 800;
+  font-size: 2.6rem;
+  line-height: 1;
+}
+.hero-description-text {
+  margin-top: 0.5em;
+}
+
+.hero-description-text > p {
+  line-height: 1.7em;
+  color: var(--Grayish-blue);
+}
+.hero-description-text > button {
+  background-color: var(--Soft-red);
+  border: none;
+  font-weight: 800;
+  margin-top: 2em;
+  width: 14em;
+  height: 2em;
+  height: 3.5em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+.hero-description-text > button:hover {
+  cursor: pointer;
+  background-color: var(--Very-dark-blue);
+  color: var(--Off-white);
+}
+@media (min-width: 768px) {
+  .hero-image-section {
+    margin-top: 3.5em;
+  }
+  .hero-description {
+    display: flex;
+    margin-top: 2em;
+  }
+  .hero-description-heading {
+    flex: 1;
+  }
+  .hero-description-heading > h1 {
+    font-size: 3.6rem;
+    font-weight: 800;
+    line-height: 1;
+  }
+  .hero-description-text {
+    flex: 1;
+  }
+  .hero-description-text > p {
+    padding-right: 0.2em;
+    padding-left: 1em;
+    line-height: 1.5;
+  }
+  .hero-description-text > button {
+    background-color: var(--Soft-red);
+    border: none;
+    font-weight: 800;
+    margin-top: 2.8em;
+    margin-left: 1em;
+    width: 14em;
+    height: 2em;
+    height: 3.5em;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+  }
+}
